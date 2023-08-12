@@ -95,5 +95,23 @@ body {
 }
 
 .weather {
-    display: ;
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+#foot {
+    border-top: 1px solid #ebfffc;
+    margin-top: 40px;
+    display: none;
+}
+
+#foot p {
+    margin-top: 8px;
 }
