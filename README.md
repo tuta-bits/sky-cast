@@ -37,6 +37,9 @@ Credits:
 		Open Weather (https://openweathermap.org/api)
 
 	Accessing indexed arrays:
-	  w3school (https://www.w3schools.com/python/numpy/numpy_array_indexing.asp#:~:text=Access%20Array%20Elements,second%20has%20index%201%20etc.)
+		W3School (https://www.w3schools.com/python/numpy/numpy_array_indexing.asp#:~:text=Access%20Array%20Elements,second%20has%20index%201%20etc.)
+
+   	Triggering Button on enter:
+    		W3School (https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
 
 
