@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/styles.css">
+    <link rel="icon" href="images/Favicon.jpg" type="image/x-icon">
     <title>Sky-cast</title>
 </head>
 <body>
@@ -11,8 +12,12 @@
 
     <div class="wrapper">
         <div class="search">
-            <input type="text" placeholder="Enter City Name" spellcheck="false">
-            <button><img src="images/search.png" alt="search icon"></button>
+            <input type="text" placeholder="Enter City Name" spellcheck="false" id="myInput">
+            <button id="myBtn"><img src="images/search.png" alt="search icon"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name</p>
         </div>
 
         <div class="weather">
@@ -40,8 +45,16 @@
 
             </div>
         </div>
+
+        <footer id="foot">
+            <p>
+              &copy; 2023  All rights reserved.
+            </p>
+          </footer>
     </div>
 
+
+    <script src="JS/main.js"></script>
 
 </body>
 </html>
