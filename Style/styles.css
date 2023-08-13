@@ -98,6 +98,10 @@ body {
     display: none;
 }
 
+.weather h3 {
+    text-transform: capitalize;
+}
+
 .error {
     text-align: left;
     margin-left: 10px;
@@ -114,4 +118,34 @@ body {
 
 #foot p {
     margin-top: 8px;
+}
+
+
+#iconsContainer{  
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 20px;
+    overflow: auto;
+    border: 1px solid #ebfffc;    
+    border-radius: 10px;
+    display: none;
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 50px;
+    height: 50px;
+}
+.desc1, .desc2, .desc3, .desc4, .desc5 {
+    text-transform: capitalize;
 }
