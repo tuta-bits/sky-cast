@@ -34,6 +34,7 @@ async function getWeather(city) {
         document.querySelector(".weather").style.display = "none";
         document.querySelector("#foot").style.display = "none";
         document.querySelector("#iconsContainer").style.display = "none";
+        document.querySelector(".drip").style.display = "none";
 
     }
     else{
@@ -70,6 +71,7 @@ async function getWeather(city) {
         document.querySelector(".error").style.display = "none";
         document.querySelector("#foot").style.display = "block";
         document.querySelector("#iconsContainer").style.display = "block";
+        document.querySelector(".drip").style.display = "block";
 
 
     }
