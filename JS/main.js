@@ -129,7 +129,7 @@ async function getWeather(city) {
             icon1.src = "images/rain.svg";
         }
         else if(data1.list[4].weather[0].main == "Drizzle") {
-            icon1.src = "images/drizzle.png";
+            icon1.src = "images/drizzle.svg";
         }
         else if(data1.list[4].weather[0].main == "Mist") {
             icon1.src = "images/mist.svg";
@@ -183,7 +183,7 @@ async function getWeather(city) {
             icon3.src = "images/cloud.svg";
         }
         else if(data1.list[20].weather[0].main == "Clear"){
-            icon3.src = "images/clear.png";
+            icon3.src = "images/clear.svg";
         }
         else if(data1.list[20].weather[0].main == "Rain") {
             icon3.src = "images/rain.svg";
