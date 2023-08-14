@@ -48,22 +48,31 @@ async function getWeather(city) {
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
         if(data.weather[0].main == "Clouds"){
-            weatherIcon.src = "images/clouds.png";
+            weatherIcon.src = "images/cloud.svg";
         }
         else if(data.weather[0].main == "Clear"){
-            weatherIcon.src = "images/clear.png";
+            weatherIcon.src = "images/clear.svg";
         }
         else if(data.weather[0].main == "Rain") {
-            weatherIcon.src = "images/rain.png";
+            weatherIcon.src = "images/rain.svg";
         }
         else if(data.weather[0].main == "Drizzle") {
-            weatherIcon.src = "images/drizzle.png";
+            weatherIcon.src = "images/drizzle.svg";
         }
         else if(data.weather[0].main == "Mist") {
-            weatherIcon.src = "images/mist.png";
+            weatherIcon.src = "images/mist.svg";
         }
         else if(data.weather[0].main == "Fog") {
-            weatherIcon.src = "images/fog.png";
+            weatherIcon.src = "images/fog.svg";
+        }
+        else if(data.weather[0].main == "Smoke") {
+            weatherIcon.src = "images/smoke.svg";
+        }
+        else if(data.weather[0].main == "Snow") {
+            weatherIcon.src = "images/snow.svg";
+        }
+        else if(data.weather[0].main == "Hail") {
+            weatherIcon.src = "images/hail.svg";
         }
 
 
@@ -111,121 +120,151 @@ async function getWeather(city) {
 
 
         if(data1.list[4].weather[0].main == "Clouds"){
-            icon1.src = "images/clouds.png";
+            icon1.src = "images/cloud.svg";
         }
         else if(data1.list[4].weather[0].main == "Clear"){
-            icon1.src = "images/clear.png";
+            icon1.src = "images/clear.svg";
         }
         else if(data1.list[4].weather[0].main == "Rain") {
-            icon1.src = "images/rain.png";
+            icon1.src = "images/rain.svg";
         }
         else if(data1.list[4].weather[0].main == "Drizzle") {
             icon1.src = "images/drizzle.png";
         }
         else if(data1.list[4].weather[0].main == "Mist") {
-            icon1.src = "images/mist.png";
+            icon1.src = "images/mist.svg";
         }
         else if(data1.list[4].weather[0].main == "Fog") {
-            icon1.src = "images/fog.png";
+            icon1.src = "images/fog.svg";
         }
         else if(data1.list[4].weather[0].main == "Snow") {
-            icon1.src = "images/snow.png";
+            icon1.src = "images/snow.svg";
+        }
+        else if(data1.list[4].weather[0].main == "Smoke") {
+            icon1.src = "images/smoke.svg";
+        }
+        else if(data1.list[4].weather[0].main == "Hail") {
+            icon1.src = "images/hail.svg";
         }
 
 
 
         if(data1.list[12].weather[0].main == "Clouds"){
-            icon2.src = "images/clouds.png";
+            icon2.src = "images/cloud.svg";
         }
         else if(data1.list[12].weather[0].main == "Clear"){
-            icon2.src = "images/clear.png";
+            icon2.src = "images/clear.svg";
         }
         else if(data1.list[12].weather[0].main == "Rain") {
-            icon2.src = "images/rain.png";
+            icon2.src = "images/rain.svg";
         }
         else if(data1.list[12].weather[0].main == "Drizzle") {
-            icon2.src = "images/drizzle.png";
+            icon2.src = "images/drizzle.svg";
         }
         else if(data1.list[12].weather[0].main == "Mist") {
-            icon2.src = "images/mist.png";
+            icon2.src = "images/mist.svg";
         } 
         else if(data1.list[12].weather[0].main == "Fog") {
-            icon2.src = "images/fog.png";
+            icon2.src = "images/fog.svg";
         }
         else if(data1.list[12].weather[0].main == "Snow") {
-            icon2.src = "images/snow.png";
+            icon2.src = "images/snow.svg";
+        }
+        else if(data1.list[12].weather[0].main == "Smoke") {
+            icon2.src = "images/smoke.svg";
+        }
+        else if(data1.list[12].weather[0].main == "Hail") {
+            icon2.src = "images/hail.svg";
         }       
 
 
 
         if(data1.list[20].weather[0].main == "Clouds"){
-            icon3.src = "images/clouds.png";
+            icon3.src = "images/cloud.svg";
         }
         else if(data1.list[20].weather[0].main == "Clear"){
             icon3.src = "images/clear.png";
         }
         else if(data1.list[20].weather[0].main == "Rain") {
-            icon3.src = "images/rain.png";
+            icon3.src = "images/rain.svg";
         }
         else if(data1.list[20].weather[0].main == "Drizzle") {
-            icon3.src = "images/drizzle.png";
+            icon3.src = "images/drizzle.svg";
         }
         else if(data1.list[20].weather[0].main == "Mist") {
-            icon3.src = "images/mist.png";
+            icon3.src = "images/mist.svg";
         }
         else if(data1.list[20].weather[0].main == "Fog") {
-            icon3.src = "images/fog.png";
+            icon3.src = "images/fog.svg";
         }
         else if(data1.list[20].weather[0].main == "Snow") {
-            icon3.src = "images/snow.png";
-        }  
+            icon3.src = "images/snow.svg";
+        }
+        else if(data1.list[20].weather[0].main == "Smoke") {
+            icon3.src = "images/smoke.svg";
+        }
+        else if(data1.list[20].weather[0].main == "Hail") {
+            icon3.src = "images/hail.svg";
+        } 
 
 
 
         if(data1.list[28].weather[0].main == "Clouds"){
-            icon4.src = "images/clouds.png";
+            icon4.src = "images/cloud.svg";
         }
         else if(data1.list[28].weather[0].main == "Clear"){
-            icon4.src = "images/clear.png";
+            icon4.src = "images/clear.svg";
         }
         else if(data1.list[28].weather[0].main == "Rain") {
-            icon4.src = "images/rain.png";
+            icon4.src = "images/rain.svg";
         }
         else if(data1.list[28].weather[0].main == "Drizzle") {
-            icon4.src = "images/drizzle.png";
+            icon4.src = "images/drizzle.svg";
         }
         else if(data1.list[28].weather[0].main == "Mist") {
-            icon4.src = "images/mist.png";
+            icon4.src = "images/mist.svg";
         }
         else if(data1.list[28].weather[0].main == "Fog") {
-            icon4.src = "images/fog.png";
+            icon4.src = "images/fog.svg";
         }
         else if(data1.list[28].weather[0].main == "Snow") {
-            icon4.src = "images/snow.png";
+            icon4.src = "images/snow.svg";
+        }
+        else if(data1.list[28].weather[0].main == "Smoke") {
+            icon4.src = "images/smoke.svg";
+        }
+        else if(data1.list[28].weather[0].main == "Hail") {
+            icon4.src = "images/hail.svg";
         }
 
 
 
         if(data1.list[36].weather[0].main == "Clouds"){
-            icon5.src = "images/clouds.png";
+            icon5.src = "images/cloud.svg";
         }
         else if(data1.list[36].weather[0].main == "Clear"){
-            icon5.src = "images/clear.png";
+            icon5.src = "images/clear.svg";
         }
         else if(data1.list[36].weather[0].main == "Rain") {
-            icon5.src = "images/rain.png";
+            icon5.src = "images/rain.svg";
         }
         else if(data1.list[36].weather[0].main == "Drizzle") {
-            icon5.src = "images/drizzle.png";
+            icon5.src = "images/drizzle.svg";
         }
         else if(data1.list[36].weather[0].main == "Mist") {
-            icon5.src = "images/mist.png";
+            icon5.src = "images/mist.svg";
         }
         else if(data1.list[36].weather[0].main == "Fog") {
-            icon5.src = "images/fog.png";
+            icon5.src = "images/fog.svg";
         }
         else if(data1.list[36].weather[0].main == "Snow") {
-            icon5.src = "images/snow.png";
+            icon5.src = "images/snow.svg";
+        }
+        else if(data1.list[36].weather[0].main == "Smoke") {
+            icon5.src = "images/smoke.svg";
+        }
+        else if(data1.list[36].weather[0].main == "Hail") {
+            icon5.src = "images/hail.svg";
         }
 
 
