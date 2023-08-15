@@ -1,4 +1,4 @@
-# sky-cast
+# Sky-Cast
 
 
 This is a wonderful display of `HTML`, `JS` and `CSS` :sparkles: manipulation at work <br>
@@ -41,5 +41,9 @@ Credits:
   
    	Triggering Button on enter:
     	W3School (https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
+
+    </>Javascript Obfuscator:
+      	JS Obfuscator (https://javascriptobfuscator.com/Javascript-Obfuscator.aspx)
+
 
 
