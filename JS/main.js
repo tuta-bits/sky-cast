@@ -74,6 +74,15 @@ async function getWeather(city) {
         else if(data.weather[0].main == "Hail") {
             weatherIcon.src = "images/hail.svg";
         }
+        else if(data.weather[0].main == "Thunderstorm") {
+            weatherIcon.src = "images/thunderstorm.svg";
+        }
+        else if(data.weather[0].main == "Tornado") {
+            weatherIcon.src = "images/tornado.svg";
+        }
+        else if(data.weather[0].main == "Hurricane") {
+            weatherIcon.src = "images/hurricane.svg";
+        }
 
 
         document.querySelector(".weather").style.display = "block";
@@ -146,6 +155,15 @@ async function getWeather(city) {
         else if(data1.list[4].weather[0].main == "Hail") {
             icon1.src = "images/hail.svg";
         }
+        else if(data1.list[4].weather[0].main == "Thunderstorm") {
+            icon1.src = "images/thunderstorm.svg";
+        }
+        else if(data1.list[4].weather[0].main == "Tornado") {
+            icon1.src = "images/tornado.svg";
+        }
+        else if(data1.list[4].weather[0].main == "Hurricane") {
+            icon1.src = "images/hurricane.svg";
+        }
 
 
 
@@ -175,7 +193,16 @@ async function getWeather(city) {
         }
         else if(data1.list[12].weather[0].main == "Hail") {
             icon2.src = "images/hail.svg";
-        }       
+        }
+        else if(data1.list[12].weather[0].main == "Thunderstorm") {
+            icon2.src = "images/thunderstorm.svg";
+        }
+        else if(data1.list[12].weather[0].main == "Tornado") {
+            icon2.src = "images/tornado.svg";
+        } 
+        else if(data1.list[12].weather[0].main == "Hurricane") {
+            icon2.src = "images/hurricane.svg";
+        }    
 
 
 
@@ -206,6 +233,15 @@ async function getWeather(city) {
         else if(data1.list[20].weather[0].main == "Hail") {
             icon3.src = "images/hail.svg";
         } 
+        else if(data1.list[20].weather[0].main == "Thunderstorm") {
+            icon3.src = "images/thunderstorm.svg";
+        }
+        else if(data1.list[20].weather[0].main == "Tornado") {
+            icon3.src = "images/tornado.svg";
+        }
+        else if(data1.list[20].weather[0].main == "Hurricane") {
+            icon3.src = "images/hurricane.svg";
+        }
 
 
 
@@ -236,6 +272,15 @@ async function getWeather(city) {
         else if(data1.list[28].weather[0].main == "Hail") {
             icon4.src = "images/hail.svg";
         }
+        else if(data1.list[28].weather[0].main == "Thunderstorm") {
+            icon4.src = "images/thunderstorm.svg";
+        }
+        else if(data1.list[28].weather[0].main == "Tornado") {
+            icon4.src = "images/tornado.svg";
+        }
+        else if(data1.list[28].weather[0].main == "Hurricane") {
+            icon4.src = "images/hurricane.svg";
+        }
 
 
 
@@ -265,6 +310,15 @@ async function getWeather(city) {
         }
         else if(data1.list[36].weather[0].main == "Hail") {
             icon5.src = "images/hail.svg";
+        }
+        else if(data1.list[36].weather[0].main == "Thunderstorm") {
+            icon5.src = "images/thunderstorm.svg";
+        }
+        else if(data1.list[36].weather[0].main == "Tornado") {
+            icon5.src = "images/tornado.svg";
+        }
+        else if(data1.list[36].weather[0].main == "Hurricane") {
+            icon5.src = "images/hurricane.svg";
         }
 
 
